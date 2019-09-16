@@ -534,6 +534,7 @@
 ### 前向分步算法与 AdaBoost
 - AdaBoost 算法是前向分步算法的特例。
 - 此时，基函数为基分类器，损失函数为指数函数`L(y,f(x)) = exp(-y*f(x))`
+[adaboost详细推导](https://www.cnblogs.com/ScorpioLu/p/8295990.html)
 
 # 梯度提升决策树 GBDT
 - GBDT 是以**决策树**为基学习器、采用 Boosting 策略的一种集成学习模型
